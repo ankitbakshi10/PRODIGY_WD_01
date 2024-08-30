@@ -23,6 +23,7 @@ header{
 .name{
     font-weight: 700;
     font-size: 24px;
+    float: left;
     align-items: center;
     padding-left: 80px;
 }
@@ -33,6 +34,7 @@ header{
 
 .list{
     display: flex;
+    float: right;
     align-items: center;
     padding-right: 80px;
 }
@@ -41,6 +43,7 @@ header{
     list-style: none;
     margin: 0 10px;
     font-weight: 550;
+    display: inline;
 }
     
 .img{
