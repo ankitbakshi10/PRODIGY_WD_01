@@ -7,26 +7,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <nav class="nav">
                 <div class="name"><img src="Logo.png" class="img" height="60px">Fitness Nirvana</div>
                 <ul class="list">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
-            <div class="intro">
-                <h3>The Best Gym in town</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum pariatur, atque corporis accusamus omnis temporibus soluta ut eius officia voluptates a, doloremque, in repellendus et facere itaque fugit ea.</p>
-                <img  src="gym1.jpg" alt="img">
+        </div>
+    </header>
+
+    <br>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Your Journey to Fitness Starts Here</h2>
+            <p>Join Fitness Nirvana today and achieve your dream body.</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Fitness Nirvana, we believe in transforming lives through fitness. Our team of experienced trainers
+                and state-of-the-art facilities are here to guide you every step of the way.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Personal Training</h3>
+                    <p>Get personalized training programs tailored to your fitness goals.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Group Classes</h3>
+                    <p>Join our energetic group classes for a fun and motivating workout experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Nutrition Coaching</h3>
+                    <p>Receive expert nutrition advice to complement your fitness journey.</p>
+                </div>
             </div>
-        </main>
-        <footer></footer>
-    </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to get started? Reach out to us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fitness Nirvana. All rights reserved.</p>
+        </div>
+        <div class="me">
+            <p>
+                Made by:- <a target="_blank" href="https://www.linkedin.com/in/ankit-bakshi-b813a4279/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAYFBMVEUAd7X///8Ac7NGlMRGk8QAdrUAbLAAbrDZ7PXV6fPy+fw9ir/p9Pkugbo0hr3D2umz0ORUnMh3q9C72eplocoIe7dsps6dxN6lyeCDs9TL4u+WwNzg7vVTmMYhg7uy1OcLxWtDAAABaklEQVRIie3W7Y6CMBAFUBxohwIK8qEIgu//lltou7TortNu9p83MRGSIzgzlEaHwETyU51jr5wrBWsODDzCgNcLrHjkHV5JOIE/hEnCOATGEiYhMHGgLBELgdi1lxlJ1IH8uvS17CjShtiriRCekM1mlm7oBaE2sCEMhA1vBg5+kCUG9n63GmGqXJYTqmNDlhcrrAkXdPsIx3FI+4TidpPDkHNOm7ndrP6U9TH/5VZxDewPsEvaS5t0CK8h9qXKSd4tq9T3EaC73rOl2EVp/X0bcqcddzMMU7YtbFuHHShsqH+lnJwlsUIqFIW7mLZAhPuYOfaGh5nR4fBotgLVQIWik+PE+11h38NCLUGmV+Ypfw9HdQU0j/lAhfr9AKafggizXHc81/VJibA4qvKzk4HE4nzgB/4jfLU8UiA26RqxQn0wfEOhTjTPMEIdZh9EOsw9QXzpPOdvMHgTGLztDN7oBm+twzfzYfkCChobmnKthiYAAAAASUVORK5CYII=" alt="LinkedIn"> Ankit Bakshi</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
